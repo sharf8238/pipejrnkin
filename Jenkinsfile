@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'javac *.java'
+                sh 'javac JavaExample'
                 sh 'Java JavaExample'        
                    }
     }}
